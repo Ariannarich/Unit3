@@ -2,6 +2,7 @@ package com.company;
 
 public class BooleanExpressionsWithLiterals {
     public static void main(String[] args) {
+
         System.out.println(5 * 18 != 5 * 3 + 5 * 6);
         System.out.println(-13 == -13.00);
         System.out.println(-13 <= -13.0);
