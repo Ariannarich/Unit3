@@ -38,10 +38,10 @@ public class NumericComparisons {
         return num  < 0;
     }
     public static boolean isNonNegative(int num) {
-        return num  <= 0;
+        return num  >= 0;
     }
     public static boolean isNonPositive(int num) {
-        return num  >= 0;
+        return num  <= 0;
     }
 }
 
