@@ -13,13 +13,13 @@ public class DiscriminantAndRoots {
         String disc2 = String.valueOf(disc);
 
         if (disc == 0) {
-            return (a + "x^2 + " + b + "x + " + c + "has 1 real root");
+            return (a + "x^2 + " + b + "x + " + c + " has 1 real root");
         }
         else if (disc < 0) {
-            return (a + "x^2 + " + b + "x + " + c + "has 2 imaginary roots");
+            return (a + "x^2 + " + b + "x + " + c + " has 2 imaginary roots");
         }
         else if (disc > 0)
-            return (a + "x^2 + " + b + "x + " + c + "has 2 real roots");
+            return (a + "x^2 + " + b + "x + " + c + " has 2 real roots");
 
         return disc2;
     }
@@ -31,6 +31,6 @@ public class DiscriminantAndRoots {
         int a = input.nextInt();
         int b = input.nextInt();
         int c  = input.nextInt();
-        roots(a,b,c);
+        System.out.println(roots(a,b,c));
     }
 }
