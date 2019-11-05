@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Scanner;
 
 public class DiscriminantAndRoots {
-@Test
+
     public static String roots(int a, int b, int c)
     {
 
