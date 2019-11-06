@@ -1,12 +1,10 @@
 package com.company;
 
 
-import org.testng.annotations.Test;
-
 public class ShareDigit {
 
 
-    @Test
+    @org.junit.jupiter.api.Test
     public static String SharedDigit(int num, int num2) {
 
              if (num / 10 == num2 / 10)
