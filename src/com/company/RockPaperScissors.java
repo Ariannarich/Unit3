@@ -33,7 +33,8 @@ public class RockPaperScissors
         computer = getComputerChoice();
         person = getUserChoice();
 
-        if (computer && )
+        if (computer == person)
+
     }
     public static void main(String[] args) {
     }
