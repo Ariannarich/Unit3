@@ -11,6 +11,7 @@ public class RightTriangle
         else
             return("The lengths of "+ a +", " + b +", and "+ c + " do not form a triangle");
     }
+
     public static String isRight(int a, int b, int c)
     {
       int d =(int)Math.pow(a, 2);
@@ -20,6 +21,8 @@ public class RightTriangle
            return("The lengths of "+ a +", " + b +", and "+ c + " form a right triangle");
        else if (a + b > c && b + c > a)
            return(isTriangle(a,b,c)+", but do not form a right triangle.");
+       return String.valueOf(f);
+
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
