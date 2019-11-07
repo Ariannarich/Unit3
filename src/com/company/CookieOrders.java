@@ -25,6 +25,7 @@ public class CookieOrders  {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
+            System.out.println("1-4 boxes = ");
             System.out.println("Enter the number of boxes you wish to purchase:");
             int box = input.nextInt();
        if (box < 1)
