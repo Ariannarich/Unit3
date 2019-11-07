@@ -25,8 +25,8 @@ public class CookieOrders  {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
-            System.out.println("1-4 boxes:				6.95 per box \n " +
-                            "5-9 boxes:				+5.95 +per box \n " +
+            System.out.println(" 1-4 boxes:				    6.95 per box \n " +
+                            "5-9 boxes:				    5.95 per box \n " +
                             "10-15 boxes:				5.50 per box \n " +
                     "16 or more boxes:			4.95 per box");
             System.out.println("Enter the number of boxes you wish to purchase:");
