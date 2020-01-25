@@ -31,7 +31,7 @@ public class CookieOrders  {
                     "16 or more boxes:			4.95 per box");
             System.out.println("Enter the number of boxes you wish to purchase:");
             int box = input.nextInt();
-       if (box < 1)
+       if (box < 0)
            System.out.println("Your input is invalid.");
        else
         System.out.println(totalCost(box));

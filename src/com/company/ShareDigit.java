@@ -5,18 +5,18 @@ public class ShareDigit {
 
 
     @org.junit.jupiter.api.Test
-    public static String SharedDigit(int num, int num2) {
+    public static boolean SharedDigit(int num, int num2) {
 
              if (num / 10 == num2 / 10)
-                 return "true";
+                 return true;
              else if (num % 10 == num2 % 10)
-                 return "true";
+                 return true;
              else if ((num / 10) == (num2 % 10))
-                 return "true";
+                 return true;
             else if ((num % 10) == (num2 / 10))
-                 return "true";
+                 return true;
             else
-                 return "false";
+                 return false;
     }
 
     public static void main(String[] args)
